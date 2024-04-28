@@ -27,12 +27,12 @@ private UUID id;
 private String tipoChave;
 private String valorChave;
 private String tipoConta;
-private Integer agencia;
+private String agencia;
 private String conta;
 private String nome;
 private String sobrenome;
 private Instant dataCadastro;
-private Instant dataInclusao;
+private Instant dataAteracao;
 
 @PrePersist
 public void automacao(){
@@ -42,6 +42,6 @@ public void automacao(){
 
 @PreUpdate
 public void atualiza(){
-    dataInclusao = Instant.now();
+    dataAteracao = Instant.now();
 }
 }

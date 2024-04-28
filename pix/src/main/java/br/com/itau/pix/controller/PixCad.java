@@ -3,6 +3,7 @@ package br.com.itau.pix.controller;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -37,24 +38,35 @@ public class PixCad {
             return new ResponseEntity<>("Chave inválida", HttpStatus.BAD_REQUEST);
         }else{
             HttpStatus estado = ValidaChave.valchave(pix);
-            if (estado.value()!= 400) {
-                cadpix.save(pix);
-                return new ResponseEntity<>(HttpStatus.CREATED);
-            }else{
-                return new ResponseEntity<>(estado);
-            }
+            if (estado.value()!= 400 && ValidaBanco.validaAgencia(pix.getAgencia()) && ValidaBanco.validaConta(pix.getConta())){
+                    cadpix.save(pix);
+                    return new ResponseEntity<>("Cadastrado com sucesso!", HttpStatus.CREATED);
+                }else{
+                    return new ResponseEntity<>("Dados incorretos", HttpStatus.BAD_REQUEST);
+                }
         }
     }
+
+    @PutMapping
+    public ResponseEntity<String> alterar(@RequestBody Pix pix) {
+        if(pix.getTipoChave().isBlank()){
+            return new ResponseEntity<>("Chave inválida", HttpStatus.BAD_REQUEST);
+        }else{
+            HttpStatus estado = ValidaChave.valchave(pix);
+            if (estado.value()!= 400 && ValidaBanco.validaAgencia(pix.getAgencia()) && ValidaBanco.validaConta(pix.getConta())){
+                    cadpix.save(pix);
+                    return new ResponseEntity<>("Alterado com sucesso!", HttpStatus.OK);
+                }else{
+                    return new ResponseEntity<>("Dados incorretos", HttpStatus.BAD_REQUEST);
+                }
+        }
+    }
+
     @GetMapping
     public List<Pix> listar(){
         return cadpix.findAll();
     }
-    @PutMapping
-    public ResponseEntity<String> alterar(@RequestBody Pix pix) {
-        cadpix.save(pix);
-        return new ResponseEntity<>(HttpStatus.CREATED);
-        
-    }
+
     @DeleteMapping("/{id}")
     public void deletar(@PathVariable UUID id){
         cadpix.deleteById(id);
