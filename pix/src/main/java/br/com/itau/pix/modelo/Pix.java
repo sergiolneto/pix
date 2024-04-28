@@ -3,6 +3,8 @@ package br.com.itau.pix.modelo;
 import java.time.Instant;
 import java.util.UUID;
 
+import org.apache.commons.lang3.RandomStringUtils;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.PrePersist;
@@ -32,16 +34,26 @@ private String conta;
 private String nome;
 private String sobrenome;
 private Instant dataCadastro;
-private Instant dataIncl;
+private Instant dataInclusao;
 
 @PrePersist
 public void automacao(){
+    Logger logger = Logger.getLogger(this.getName());
     id = UUID.randomUUID();
     dataCadastro = Instant.now();
+    if(tipoChave.equals("ALEATORIA")){
+
+                    String randomString = RandomStringUtils.randomAlphanumeric(36);
+                    logger.info(randomString);
+    }
+}
+
+private String getName() {
+    throw new UnsupportedOperationException("Unimplemented method 'getName'");
 }
 
 @PreUpdate
 public void atualiza(){
-    dataIncl = Instant.now();
+    dataInclusao = Instant.now();
 }
 }
