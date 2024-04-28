@@ -16,10 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import br.com.itau.pix.modelo.Pix;
 import br.com.itau.pix.repositorio.Cadpix;
-import br.com.itau.pix.validadores.ValidaBanco;
-import br.com.itau.pix.validadores.ValidadorCPF;
-import br.com.itau.pix.validadores.ValidadorCnpj;
-import br.com.itau.pix.validadores.ValidadorTelefone;
+import br.com.itau.pix.validadores.*;
 
 
 
@@ -36,10 +33,15 @@ public class PixCad {
     }
     @PostMapping
     public ResponseEntity<String> incluir(@RequestBody Pix pix){
-        if(pix.getTipoChave().equals("CPF")){
-            String cpf = pix.getValorChave();
-            if(!ValidadorCPF.isCPF(cpf)){
-                return new ResponseEntity<>("CPF inválido", HttpStatus.BAD_REQUEST);
+        if(pix.getTipoChave().isBlank()){
+            return new ResponseEntity<>("Chave inválida", HttpStatus.BAD_REQUEST);
+        }else{
+            HttpStatus estado = ValidaChave.valchave(pix);
+            if (estado.value()!= 400) {
+                cadpix.save(pix);
+                return new ResponseEntity<>(HttpStatus.CREATED);
+            }else{
+                return new ResponseEntity<>(estado);
             }
         }
     }
