@@ -12,7 +12,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 
-@Setter
+
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
@@ -40,4 +40,5 @@ public void automacao(){
 @PreUpdate
 public void atualiza(){
     dataAteracao = Instant.now();
+}
 }
