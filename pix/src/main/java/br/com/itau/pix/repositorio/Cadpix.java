@@ -8,6 +8,5 @@ import br.com.itau.pix.modelo.Pix;
 
 public interface Cadpix extends JpaRepository<Pix, UUID>{
 
-    
 
 }

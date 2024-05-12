@@ -30,15 +30,23 @@ private String nome;
 private String sobrenome;
 private Instant dataCadastro;
 private Instant dataAteracao;
+private boolean ativo;
 
 @PrePersist
 public void automacao(){
     id = UUID.randomUUID();
     dataCadastro = Instant.now();
+    ativo = true;
 }
 
 @PreUpdate
 public void atualiza(){
     dataAteracao = Instant.now();
 }
+
+public void setEnabled(Boolean valor) {
+    throw new UnsupportedOperationException("Unimplemented method 'setEnabled'");
+}
+
+
 }

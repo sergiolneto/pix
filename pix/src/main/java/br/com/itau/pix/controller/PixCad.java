@@ -7,7 +7,6 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -18,7 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.itau.pix.modelo.Pix;
 import br.com.itau.pix.repositorio.Cadpix;
 import br.com.itau.pix.validadores.*;
-
 
 
 @RestController
@@ -42,7 +40,7 @@ public class PixCad {
                     cadpix.save(pix);
                     return new ResponseEntity<>("Cadastrado com sucesso!", HttpStatus.CREATED);
                 }else{
-                    return new ResponseEntity<>("Dados incorretos", HttpStatus.BAD_REQUEST);
+                    return new ResponseEntity<>("Cadastro não aceito", HttpStatus.BAD_REQUEST);
                 }
         }
     }
@@ -67,12 +65,9 @@ public class PixCad {
         return cadpix.findAll();
     }
 
-    @DeleteMapping("/{id}")
-    public void deletar(@PathVariable UUID id){
-        cadpix.deleteById(id);
-    }
     @GetMapping("/{id}")
     public Optional<Pix> ler(@PathVariable UUID id) {
         return cadpix.findById(id);
     }
+
 }
