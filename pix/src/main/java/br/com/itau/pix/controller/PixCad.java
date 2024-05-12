@@ -45,19 +45,25 @@ public class PixCad {
         }
     }
 
-    @PutMapping
-    public ResponseEntity<String> alterar(@RequestBody Pix pix) {
-        if(pix.getTipoChave().isBlank()){
-            return new ResponseEntity<>("Chave inválida", HttpStatus.BAD_REQUEST);
+    @PutMapping("/{id}")
+    public ResponseEntity<String> alterar(@PathVariable UUID id, @RequestBody Pix pix) {
+        Pix pix2 = cadpix.findById(id).orElseThrow();
+        if(pix.getTipoChave().equals(pix2.getTipoChave())){
+            if(pix.getTipoChave().isBlank()){
+                return new ResponseEntity<>("Chave inválida", HttpStatus.BAD_REQUEST);
+            }else{
+                HttpStatus estado = ValidaChave.valchave(pix);
+                if (estado.value()!= 400 && ValidaBanco.validaAgencia(pix.getAgencia()) && ValidaBanco.validaConta(pix.getConta())){
+                        cadpix.save(pix);
+                        return new ResponseEntity<>("Alterado com sucesso!", HttpStatus.OK);
+                    }else{
+                        return new ResponseEntity<>("Dados incorretos:", HttpStatus.BAD_REQUEST);
+                    }
+            }
         }else{
-            HttpStatus estado = ValidaChave.valchave(pix);
-            if (estado.value()!= 400 && ValidaBanco.validaAgencia(pix.getAgencia()) && ValidaBanco.validaConta(pix.getConta())){
-                    cadpix.save(pix);
-                    return new ResponseEntity<>("Alterado com sucesso!", HttpStatus.OK);
-                }else{
-                    return new ResponseEntity<>("Dados incorretos", HttpStatus.BAD_REQUEST);
-                }
+            return new ResponseEntity<>("Chaves não pode ser alterada!", HttpStatus.BAD_REQUEST);
         }
+        
     }
 
     @GetMapping
@@ -69,5 +75,6 @@ public class PixCad {
     public Optional<Pix> ler(@PathVariable UUID id) {
         return cadpix.findById(id);
     }
+
 
 }

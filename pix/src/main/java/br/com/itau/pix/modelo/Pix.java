@@ -41,6 +41,7 @@ public void automacao(){
 
 @PreUpdate
 public void atualiza(){
+    ativo = true;
     dataAteracao = Instant.now();
 }
 
