@@ -6,8 +6,6 @@ import br.com.itau.pix.modelo.Pix;
 
 public class ValidaChave {
 
-    
-
     public static HttpStatus valchave(Pix pix){
         switch (pix.getTipoChave()) {
                 case "CPF":

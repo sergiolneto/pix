@@ -35,8 +35,6 @@ public class ValidadorCnpj {
             chr_cnpj[13] = '0';
         else
             chr_cnpj[13] = (char) ((11 - soma % 11) + 48);
-        if ((cnpj.charAt(12) != chr_cnpj[12]) || (cnpj.charAt(13) != chr_cnpj[13]))
-            return false;
-        return true;
+        return (cnpj.charAt(12) == chr_cnpj[12]) && (cnpj.charAt(13) == chr_cnpj[13]);
     }
 }
