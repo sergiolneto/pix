@@ -8,7 +8,7 @@
 		<version>3.2.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.itau</groupId>
+	<groupId>br.com.bank</groupId>
 	<artifactId>pix</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>pix</name>

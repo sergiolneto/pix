@@ -1,8 +1,8 @@
-package br.com.itau.pix.validadores;
+package br.com.bank.pix.validadores;
 
 import org.springframework.http.HttpStatus;
 
-import br.com.itau.pix.modelo.Pix;
+import br.com.bank.pix.modelo.Pix;
 
 public class ValidaChave {
 

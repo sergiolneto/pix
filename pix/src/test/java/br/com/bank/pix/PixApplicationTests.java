@@ -1,4 +1,4 @@
-package br.com.itau.pix;
+package br.com.bank.pix;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

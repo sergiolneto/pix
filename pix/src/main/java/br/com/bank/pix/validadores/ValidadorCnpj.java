@@ -1,4 +1,4 @@
-package br.com.itau.pix.validadores;
+package br.com.bank.pix.validadores;
 
 public class ValidadorCnpj {
     public static boolean validaCnpj(String cnpj) {

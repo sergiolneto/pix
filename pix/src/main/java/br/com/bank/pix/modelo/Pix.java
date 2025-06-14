@@ -1,4 +1,4 @@
-package br.com.itau.pix.modelo;
+package br.com.bank.pix.modelo;
 
 import java.time.Instant;
 import java.util.UUID;

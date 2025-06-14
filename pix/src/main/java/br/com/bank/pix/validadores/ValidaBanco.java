@@ -1,4 +1,4 @@
-package br.com.itau.pix.validadores;
+package br.com.bank.pix.validadores;
 
 public class ValidaBanco {
     public static boolean validaAgencia(String agencia) {

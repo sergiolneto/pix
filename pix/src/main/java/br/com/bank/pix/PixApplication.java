@@ -1,4 +1,4 @@
-package br.com.itau.pix;
+package br.com.bank.pix;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package br.com.itau.pix.controller;
+package br.com.bank.pix.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import br.com.itau.pix.modelo.Pix;
-import br.com.itau.pix.repositorio.Cadpix;
-import br.com.itau.pix.validadores.*;
+import br.com.bank.pix.modelo.Pix;
+import br.com.bank.pix.repositorio.Cadpix;
+import br.com.bank.pix.validadores.*;
 
 
 @RestController

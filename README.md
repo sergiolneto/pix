@@ -19,10 +19,10 @@ O principal objetivo da aplicação é permitir o cadastro e a validação de di
 
 O projeto está organizado em pacotes que separam responsabilidades:
 
-1.  **`br.com.itau.pix`**:
+1.  **`br.com.bank.pix`**:
     *   `PixApplication.java`: Classe principal que inicializa a aplicação Spring Boot.
 
-2.  **`br.com.itau.pix.modelo`**:
+2.  **`br.com.bank.pix.modelo`**:
     *   `Pix.java`:
         *   É uma entidade JPA (`@Entity`) que representa uma chave PIX no sistema.
         *   Contém atributos como `id` (UUID), `tipoChave` (ex: CPF, CNPJ, TELEFONE), `valorChave`, `tipoConta`, `agencia`, `conta`, `nome`, `sobrenome`, `dataCadastro`, `dataAteracao` e `ativo`.
@@ -30,12 +30,12 @@ O projeto está organizado em pacotes que separam responsabilidades:
         *   Possui métodos anotados com `@PrePersist` (`automacao`) e `@PreUpdate` (`atualiza`) para definir automaticamente o `id`, `dataCadastro`, `dataAteracao` e o status `ativo` durante as operações de persistência e atualização.
         *   O método `setEnabled` parece estar incompleto ou é um placeholder, pois lança `UnsupportedOperationException`.
 
-3.  **`br.com.itau.pix.repositorio`**:
+3.  **`br.com.bank.pix.repositorio`**:
     *   `Cadpix.java`:
         *   Interface que estende `JpaRepository<Pix, UUID>`.
         *   Fornece métodos CRUD (Create, Read, Update, Delete) prontos para a entidade `Pix` sem a necessidade de implementação manual, além de outras funcionalidades de consulta.
 
-4.  **`br.com.itau.pix.validadores`**:
+4.  **`br.com.bank.pix.validadores`**:
     *   `ValidaChave.java`:
         *   Classe responsável por validar o `valorChave` de um objeto `Pix` com base no seu `tipoChave`.
         *   O método `valchave(Pix pix)` utiliza um `switch` para direcionar a validação:

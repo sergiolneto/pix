@@ -1,4 +1,4 @@
-package br.com.itau.pix.validadores;
+package br.com.bank.pix.validadores;
 
 import java.util.regex.Pattern;
 
