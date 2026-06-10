@@ -1,0 +1,1524 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": ".vscode/settings.json",
+      "source_location": "L1",
+      "id": "vscode_settings_json",
+      "community": 15,
+      "norm_label": "settings.json"
+    },
+    {
+      "label": "java.compile.nullAnalysis.mode",
+      "file_type": "code",
+      "source_file": ".vscode/settings.json",
+      "source_location": "L2",
+      "id": "vscode_settings_java_compile_nullanalysis_mode",
+      "community": 15,
+      "norm_label": "java.compile.nullanalysis.mode"
+    },
+    {
+      "label": "PixApplication.java",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/PixApplication.java",
+      "source_location": "L1",
+      "id": "pix_src_main_java_br_com_pix_pixapplication_java",
+      "community": 9,
+      "norm_label": "pixapplication.java"
+    },
+    {
+      "label": "PixApplication",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/PixApplication.java",
+      "source_location": "L6",
+      "id": "pix_pixapplication_pixapplication",
+      "community": 9,
+      "norm_label": "pixapplication"
+    },
+    {
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/PixApplication.java",
+      "source_location": "L9",
+      "id": "pix_pixapplication_pixapplication_main",
+      "community": 9,
+      "norm_label": ".main()"
+    },
+    {
+      "label": "ChavePixCad.java",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L1",
+      "id": "pix_src_main_java_br_com_pix_controller_chavepixcad_java",
+      "community": 1,
+      "norm_label": "chavepixcad.java"
+    },
+    {
+      "label": "ChavePixCad",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L22",
+      "id": "controller_chavepixcad_chavepixcad",
+      "community": 1,
+      "norm_label": "chavepixcad"
+    },
+    {
+      "label": ".getCadpix()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L27",
+      "id": "controller_chavepixcad_chavepixcad_getcadpix",
+      "community": 1,
+      "norm_label": ".getcadpix()"
+    },
+    {
+      "label": ".setCadpix()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L30",
+      "id": "controller_chavepixcad_chavepixcad_setcadpix",
+      "community": 1,
+      "norm_label": ".setcadpix()"
+    },
+    {
+      "label": ".incluir()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L33",
+      "id": "controller_chavepixcad_chavepixcad_incluir",
+      "community": 1,
+      "norm_label": ".incluir()"
+    },
+    {
+      "label": ".alterar()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L48",
+      "id": "controller_chavepixcad_chavepixcad_alterar",
+      "community": 1,
+      "norm_label": ".alterar()"
+    },
+    {
+      "label": ".listar()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L69",
+      "id": "controller_chavepixcad_chavepixcad_listar",
+      "community": 1,
+      "norm_label": ".listar()"
+    },
+    {
+      "label": ".ler()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L74",
+      "id": "controller_chavepixcad_chavepixcad_ler",
+      "community": 1,
+      "norm_label": ".ler()"
+    },
+    {
+      "label": "CobController.java",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/controller/CobController.java",
+      "source_location": "L1",
+      "id": "pix_src_main_java_br_com_pix_controller_cobcontroller_java",
+      "community": 4,
+      "norm_label": "cobcontroller.java"
+    },
+    {
+      "label": "CobController",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/controller/CobController.java",
+      "source_location": "L13",
+      "id": "controller_cobcontroller_cobcontroller",
+      "community": 4,
+      "norm_label": "cobcontroller"
+    },
+    {
+      "label": ".criarOuAtualizar()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/controller/CobController.java",
+      "source_location": "L20",
+      "id": "controller_cobcontroller_cobcontroller_criarouatualizar",
+      "community": 4,
+      "norm_label": ".criarouatualizar()"
+    },
+    {
+      "label": ".consultar()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/controller/CobController.java",
+      "source_location": "L33",
+      "id": "controller_cobcontroller_cobcontroller_consultar",
+      "community": 4,
+      "norm_label": ".consultar()"
+    },
+    {
+      "label": ".listar()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/controller/CobController.java",
+      "source_location": "L40",
+      "id": "controller_cobcontroller_cobcontroller_listar",
+      "community": 4,
+      "norm_label": ".listar()"
+    },
+    {
+      "label": "PixController.java",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/controller/PixController.java",
+      "source_location": "L1",
+      "id": "pix_src_main_java_br_com_pix_controller_pixcontroller_java",
+      "community": 5,
+      "norm_label": "pixcontroller.java"
+    },
+    {
+      "label": "PixController",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/controller/PixController.java",
+      "source_location": "L12",
+      "id": "controller_pixcontroller_pixcontroller",
+      "community": 5,
+      "norm_label": "pixcontroller"
+    },
+    {
+      "label": ".consultar()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/controller/PixController.java",
+      "source_location": "L19",
+      "id": "controller_pixcontroller_pixcontroller_consultar",
+      "community": 5,
+      "norm_label": ".consultar()"
+    },
+    {
+      "label": ".listar()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/controller/PixController.java",
+      "source_location": "L26",
+      "id": "controller_pixcontroller_pixcontroller_listar",
+      "community": 5,
+      "norm_label": ".listar()"
+    },
+    {
+      "label": "PixExceptionHandler.java",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/controller/PixExceptionHandler.java",
+      "source_location": "L1",
+      "id": "pix_src_main_java_br_com_pix_controller_pixexceptionhandler_java",
+      "community": 7,
+      "norm_label": "pixexceptionhandler.java"
+    },
+    {
+      "label": "PixExceptionHandler",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/controller/PixExceptionHandler.java",
+      "source_location": "L11",
+      "id": "controller_pixexceptionhandler_pixexceptionhandler",
+      "community": 7,
+      "norm_label": "pixexceptionhandler"
+    },
+    {
+      "label": ".handleException()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/controller/PixExceptionHandler.java",
+      "source_location": "L14",
+      "id": "controller_pixexceptionhandler_pixexceptionhandler_handleexception",
+      "community": 7,
+      "norm_label": ".handleexception()"
+    },
+    {
+      "label": "ChavePix.java",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/modelo/ChavePix.java",
+      "source_location": "L1",
+      "id": "pix_src_main_java_br_com_pix_modelo_chavepix_java",
+      "community": 0,
+      "norm_label": "chavepix.java"
+    },
+    {
+      "label": "ChavePix",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/modelo/ChavePix.java",
+      "source_location": "L16",
+      "id": "modelo_chavepix_chavepix",
+      "community": 0,
+      "norm_label": "chavepix"
+    },
+    {
+      "label": ".automacao()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/modelo/ChavePix.java",
+      "source_location": "L35",
+      "id": "modelo_chavepix_chavepix_automacao",
+      "community": 0,
+      "norm_label": ".automacao()"
+    },
+    {
+      "label": ".atualiza()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/modelo/ChavePix.java",
+      "source_location": "L42",
+      "id": "modelo_chavepix_chavepix_atualiza",
+      "community": 0,
+      "norm_label": ".atualiza()"
+    },
+    {
+      "label": ".setEnabled()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/modelo/ChavePix.java",
+      "source_location": "L48",
+      "id": "modelo_chavepix_chavepix_setenabled",
+      "community": 0,
+      "norm_label": ".setenabled()"
+    },
+    {
+      "label": "Cobranca.java",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/modelo/Cobranca.java",
+      "source_location": "L1",
+      "id": "pix_src_main_java_br_com_pix_modelo_cobranca_java",
+      "community": 11,
+      "norm_label": "cobranca.java"
+    },
+    {
+      "label": "Cobranca",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/modelo/Cobranca.java",
+      "source_location": "L11",
+      "id": "modelo_cobranca_cobranca",
+      "community": 11,
+      "norm_label": "cobranca"
+    },
+    {
+      "label": "PixTransaction.java",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/modelo/PixTransaction.java",
+      "source_location": "L1",
+      "id": "pix_src_main_java_br_com_pix_modelo_pixtransaction_java",
+      "community": 10,
+      "norm_label": "pixtransaction.java"
+    },
+    {
+      "label": "PixTransaction",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/modelo/PixTransaction.java",
+      "source_location": "L11",
+      "id": "modelo_pixtransaction_pixtransaction",
+      "community": 10,
+      "norm_label": "pixtransaction"
+    },
+    {
+      "label": "Cadpix.java",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/repositorio/Cadpix.java",
+      "source_location": "L1",
+      "id": "pix_src_main_java_br_com_pix_repositorio_cadpix_java",
+      "community": 12,
+      "norm_label": "cadpix.java"
+    },
+    {
+      "label": "Cadpix",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/repositorio/Cadpix.java",
+      "source_location": "L9",
+      "id": "repositorio_cadpix_cadpix",
+      "community": 12,
+      "norm_label": "cadpix"
+    },
+    {
+      "label": "CobrancaRepository.java",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/repositorio/CobrancaRepository.java",
+      "source_location": "L1",
+      "id": "pix_src_main_java_br_com_pix_repositorio_cobrancarepository_java",
+      "community": 13,
+      "norm_label": "cobrancarepository.java"
+    },
+    {
+      "label": "CobrancaRepository",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/repositorio/CobrancaRepository.java",
+      "source_location": "L6",
+      "id": "repositorio_cobrancarepository_cobrancarepository",
+      "community": 13,
+      "norm_label": "cobrancarepository"
+    },
+    {
+      "label": "PixTransactionRepository.java",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/repositorio/PixTransactionRepository.java",
+      "source_location": "L1",
+      "id": "pix_src_main_java_br_com_pix_repositorio_pixtransactionrepository_java",
+      "community": 14,
+      "norm_label": "pixtransactionrepository.java"
+    },
+    {
+      "label": "PixTransactionRepository",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/repositorio/PixTransactionRepository.java",
+      "source_location": "L6",
+      "id": "repositorio_pixtransactionrepository_pixtransactionrepository",
+      "community": 14,
+      "norm_label": "pixtransactionrepository"
+    },
+    {
+      "label": "ValidaBanco.java",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidaBanco.java",
+      "source_location": "L1",
+      "id": "pix_src_main_java_br_com_pix_validadores_validabanco_java",
+      "community": 1,
+      "norm_label": "validabanco.java"
+    },
+    {
+      "label": "ValidaBanco",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidaBanco.java",
+      "source_location": "L3",
+      "id": "validadores_validabanco_validabanco",
+      "community": 1,
+      "norm_label": "validabanco"
+    },
+    {
+      "label": ".validaAgencia()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidaBanco.java",
+      "source_location": "L4",
+      "id": "validadores_validabanco_validabanco_validaagencia",
+      "community": 1,
+      "norm_label": ".validaagencia()"
+    },
+    {
+      "label": ".validaConta()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidaBanco.java",
+      "source_location": "L8",
+      "id": "validadores_validabanco_validabanco_validaconta",
+      "community": 1,
+      "norm_label": ".validaconta()"
+    },
+    {
+      "label": "ValidaChave.java",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidaChave.java",
+      "source_location": "L1",
+      "id": "pix_src_main_java_br_com_pix_validadores_validachave_java",
+      "community": 2,
+      "norm_label": "validachave.java"
+    },
+    {
+      "label": "ValidaChave",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidaChave.java",
+      "source_location": "L7",
+      "id": "validadores_validachave_validachave",
+      "community": 2,
+      "norm_label": "validachave"
+    },
+    {
+      "label": ".valchave()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidaChave.java",
+      "source_location": "L9",
+      "id": "validadores_validachave_validachave_valchave",
+      "community": 2,
+      "norm_label": ".valchave()"
+    },
+    {
+      "label": "ValidadorCnpj.java",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidadorCnpj.java",
+      "source_location": "L1",
+      "id": "pix_src_main_java_br_com_pix_validadores_validadorcnpj_java",
+      "community": 2,
+      "norm_label": "validadorcnpj.java"
+    },
+    {
+      "label": "ValidadorCnpj",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidadorCnpj.java",
+      "source_location": "L3",
+      "id": "validadores_validadorcnpj_validadorcnpj",
+      "community": 2,
+      "norm_label": "validadorcnpj"
+    },
+    {
+      "label": ".validaCnpj()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidadorCnpj.java",
+      "source_location": "L4",
+      "id": "validadores_validadorcnpj_validadorcnpj_validacnpj",
+      "community": 2,
+      "norm_label": ".validacnpj()"
+    },
+    {
+      "label": "ValidadorCPF.java",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidadorCPF.java",
+      "source_location": "L1",
+      "id": "pix_src_main_java_br_com_pix_validadores_validadorcpf_java",
+      "community": 2,
+      "norm_label": "validadorcpf.java"
+    },
+    {
+      "label": "ValidadorCPF",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidadorCPF.java",
+      "source_location": "L5",
+      "id": "validadores_validadorcpf_validadorcpf",
+      "community": 2,
+      "norm_label": "validadorcpf"
+    },
+    {
+      "label": ".isCPF()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidadorCPF.java",
+      "source_location": "L6",
+      "id": "validadores_validadorcpf_validadorcpf_iscpf",
+      "community": 2,
+      "norm_label": ".iscpf()"
+    },
+    {
+      "label": "ValidadorTelefone.java",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidadorTelefone.java",
+      "source_location": "L1",
+      "id": "pix_src_main_java_br_com_pix_validadores_validadortelefone_java",
+      "community": 2,
+      "norm_label": "validadortelefone.java"
+    },
+    {
+      "label": "ValidadorTelefone",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidadorTelefone.java",
+      "source_location": "L5",
+      "id": "validadores_validadortelefone_validadortelefone",
+      "community": 2,
+      "norm_label": "validadortelefone"
+    },
+    {
+      "label": ".valida()",
+      "file_type": "code",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidadorTelefone.java",
+      "source_location": "L10",
+      "id": "validadores_validadortelefone_validadortelefone_valida",
+      "community": 2,
+      "norm_label": ".valida()"
+    },
+    {
+      "label": "ChavePixApplicationTests.java",
+      "file_type": "code",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixApplicationTests.java",
+      "source_location": "L1",
+      "id": "pix_src_test_java_br_com_pix_chavepixapplicationtests_java",
+      "community": 0,
+      "norm_label": "chavepixapplicationtests.java"
+    },
+    {
+      "label": "ChavePixApplicationTests",
+      "file_type": "code",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixApplicationTests.java",
+      "source_location": "L10",
+      "id": "pix_chavepixapplicationtests_chavepixapplicationtests",
+      "community": 0,
+      "norm_label": "chavepixapplicationtests"
+    },
+    {
+      "label": ".setUp()",
+      "file_type": "code",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixApplicationTests.java",
+      "source_location": "L14",
+      "id": "pix_chavepixapplicationtests_chavepixapplicationtests_setup",
+      "community": 0,
+      "norm_label": ".setup()"
+    },
+    {
+      "label": ".automacaoShouldInitializeFieldsCorrectly()",
+      "file_type": "code",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixApplicationTests.java",
+      "source_location": "L19",
+      "id": "pix_chavepixapplicationtests_chavepixapplicationtests_automacaoshouldinitializefieldscorrectly",
+      "community": 0,
+      "norm_label": ".automacaoshouldinitializefieldscorrectly()"
+    },
+    {
+      "label": ".atualizaShouldUpdateFieldsCorrectly()",
+      "file_type": "code",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixApplicationTests.java",
+      "source_location": "L27",
+      "id": "pix_chavepixapplicationtests_chavepixapplicationtests_atualizashouldupdatefieldscorrectly",
+      "community": 0,
+      "norm_label": ".atualizashouldupdatefieldscorrectly()"
+    },
+    {
+      "label": ".setEnabledShouldThrowUnsupportedOperationException()",
+      "file_type": "code",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixApplicationTests.java",
+      "source_location": "L38",
+      "id": "pix_chavepixapplicationtests_chavepixapplicationtests_setenabledshouldthrowunsupportedoperationexception",
+      "community": 0,
+      "norm_label": ".setenabledshouldthrowunsupportedoperationexception()"
+    },
+    {
+      "label": "ChavePixTest.java",
+      "file_type": "code",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixTest.java",
+      "source_location": "L1",
+      "id": "pix_src_test_java_br_com_pix_chavepixtest_java",
+      "community": 0,
+      "norm_label": "chavepixtest.java"
+    },
+    {
+      "label": "ChavePixTest",
+      "file_type": "code",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixTest.java",
+      "source_location": "L12",
+      "id": "pix_chavepixtest_chavepixtest",
+      "community": 0,
+      "norm_label": "chavepixtest"
+    },
+    {
+      "label": ".shouldCreateWithNoArgsConstructor()",
+      "file_type": "code",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixTest.java",
+      "source_location": "L14",
+      "id": "pix_chavepixtest_chavepixtest_shouldcreatewithnoargsconstructor",
+      "community": 0,
+      "norm_label": ".shouldcreatewithnoargsconstructor()"
+    },
+    {
+      "label": ".shouldCreateWithAllArgsConstructorAndTestGetters()",
+      "file_type": "code",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixTest.java",
+      "source_location": "L22",
+      "id": "pix_chavepixtest_chavepixtest_shouldcreatewithallargsconstructorandtestgetters",
+      "community": 0,
+      "norm_label": ".shouldcreatewithallargsconstructorandtestgetters()"
+    },
+    {
+      "label": ".prePersistShouldSetDefaultValues()",
+      "file_type": "code",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixTest.java",
+      "source_location": "L60",
+      "id": "pix_chavepixtest_chavepixtest_prepersistshouldsetdefaultvalues",
+      "community": 0,
+      "norm_label": ".prepersistshouldsetdefaultvalues()"
+    },
+    {
+      "label": ".preUpdateShouldSetUpdateValues()",
+      "file_type": "code",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixTest.java",
+      "source_location": "L80",
+      "id": "pix_chavepixtest_chavepixtest_preupdateshouldsetupdatevalues",
+      "community": 0,
+      "norm_label": ".preupdateshouldsetupdatevalues()"
+    },
+    {
+      "label": ".setEnabledShouldThrowException()",
+      "file_type": "code",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixTest.java",
+      "source_location": "L95",
+      "id": "pix_chavepixtest_chavepixtest_setenabledshouldthrowexception",
+      "community": 0,
+      "norm_label": ".setenabledshouldthrowexception()"
+    },
+    {
+      "label": "CobControllerTest.java",
+      "file_type": "code",
+      "source_file": "pix/src/test/java/br/com/pix/CobControllerTest.java",
+      "source_location": "L1",
+      "id": "pix_src_test_java_br_com_pix_cobcontrollertest_java",
+      "community": 8,
+      "norm_label": "cobcontrollertest.java"
+    },
+    {
+      "label": "CobControllerTest",
+      "file_type": "code",
+      "source_file": "pix/src/test/java/br/com/pix/CobControllerTest.java",
+      "source_location": "L16",
+      "id": "pix_cobcontrollertest_cobcontrollertest",
+      "community": 8,
+      "norm_label": "cobcontrollertest"
+    },
+    {
+      "label": ".deveCriarCobranca()",
+      "file_type": "code",
+      "source_file": "pix/src/test/java/br/com/pix/CobControllerTest.java",
+      "source_location": "L29",
+      "id": "pix_cobcontrollertest_cobcontrollertest_devecriarcobranca",
+      "community": 8,
+      "norm_label": ".devecriarcobranca()"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 3,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Projeto de Gerenciamento e API PIX (Padr\u00e3o BACEN)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "pix_readme_projeto_de_gerenciamento_e_api_pix_padr\u00e3o_bacen",
+      "community": 3,
+      "norm_label": "projeto de gerenciamento e api pix (padrao bacen)"
+    },
+    {
+      "label": "Objetivo",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "id": "pix_readme_objetivo",
+      "community": 3,
+      "norm_label": "objetivo"
+    },
+    {
+      "label": "Tecnologias Utilizadas",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L12",
+      "id": "pix_readme_tecnologias_utilizadas",
+      "community": 3,
+      "norm_label": "tecnologias utilizadas"
+    },
+    {
+      "label": "Estrutura do Projeto",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "id": "pix_readme_estrutura_do_projeto",
+      "community": 3,
+      "norm_label": "estrutura do projeto"
+    },
+    {
+      "label": "Como Executar",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "id": "pix_readme_como_executar",
+      "community": 3,
+      "norm_label": "como executar"
+    },
+    {
+      "label": "HELP.md",
+      "file_type": "document",
+      "source_file": "pix/HELP.md",
+      "source_location": "L1",
+      "id": "pix_help_md",
+      "community": 6,
+      "norm_label": "help.md"
+    },
+    {
+      "label": "Getting Started",
+      "file_type": "document",
+      "source_file": "pix/HELP.md",
+      "source_location": "L1",
+      "id": "pix_help_getting_started",
+      "community": 6,
+      "norm_label": "getting started"
+    },
+    {
+      "label": "Reference Documentation",
+      "file_type": "document",
+      "source_file": "pix/HELP.md",
+      "source_location": "L3",
+      "id": "pix_help_reference_documentation",
+      "community": 6,
+      "norm_label": "reference documentation"
+    },
+    {
+      "label": "Guides",
+      "file_type": "document",
+      "source_file": "pix/HELP.md",
+      "source_location": "L12",
+      "id": "pix_help_guides",
+      "community": 6,
+      "norm_label": "guides"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".vscode/settings.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "vscode_settings_json",
+      "target": "vscode_settings_java_compile_nullanalysis_mode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/PixApplication.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "pix_src_main_java_br_com_pix_pixapplication_java",
+      "target": "pix_pixapplication_pixapplication",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/PixApplication.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "pix_pixapplication_pixapplication",
+      "target": "pix_pixapplication_pixapplication_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "pix_src_main_java_br_com_pix_controller_chavepixcad_java",
+      "target": "controller_chavepixcad_chavepixcad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "controller_chavepixcad_chavepixcad",
+      "target": "controller_chavepixcad_chavepixcad_getcadpix",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "controller_chavepixcad_chavepixcad",
+      "target": "controller_chavepixcad_chavepixcad_setcadpix",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "controller_chavepixcad_chavepixcad",
+      "target": "controller_chavepixcad_chavepixcad_incluir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "controller_chavepixcad_chavepixcad",
+      "target": "controller_chavepixcad_chavepixcad_alterar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "controller_chavepixcad_chavepixcad",
+      "target": "controller_chavepixcad_chavepixcad_listar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "controller_chavepixcad_chavepixcad",
+      "target": "controller_chavepixcad_chavepixcad_ler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "controller_chavepixcad_chavepixcad_incluir",
+      "target": "validadores_validachave_validachave_valchave"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "controller_chavepixcad_chavepixcad_incluir",
+      "target": "validadores_validabanco_validabanco_validaagencia"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "controller_chavepixcad_chavepixcad_incluir",
+      "target": "validadores_validabanco_validabanco_validaconta"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "controller_chavepixcad_chavepixcad_alterar",
+      "target": "validadores_validachave_validachave_valchave"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "controller_chavepixcad_chavepixcad_alterar",
+      "target": "validadores_validabanco_validabanco_validaagencia"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "pix/src/main/java/br/com/pix/controller/ChavePixCad.java",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "controller_chavepixcad_chavepixcad_alterar",
+      "target": "validadores_validabanco_validabanco_validaconta"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/controller/CobController.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "pix_src_main_java_br_com_pix_controller_cobcontroller_java",
+      "target": "controller_cobcontroller_cobcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/controller/CobController.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "controller_cobcontroller_cobcontroller",
+      "target": "controller_cobcontroller_cobcontroller_criarouatualizar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/controller/CobController.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "controller_cobcontroller_cobcontroller",
+      "target": "controller_cobcontroller_cobcontroller_consultar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/controller/CobController.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "controller_cobcontroller_cobcontroller",
+      "target": "controller_cobcontroller_cobcontroller_listar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/controller/PixController.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "pix_src_main_java_br_com_pix_controller_pixcontroller_java",
+      "target": "controller_pixcontroller_pixcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/controller/PixController.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "controller_pixcontroller_pixcontroller",
+      "target": "controller_pixcontroller_pixcontroller_consultar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/controller/PixController.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "controller_pixcontroller_pixcontroller",
+      "target": "controller_pixcontroller_pixcontroller_listar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/controller/PixExceptionHandler.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "pix_src_main_java_br_com_pix_controller_pixexceptionhandler_java",
+      "target": "controller_pixexceptionhandler_pixexceptionhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/controller/PixExceptionHandler.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "controller_pixexceptionhandler_pixexceptionhandler",
+      "target": "controller_pixexceptionhandler_pixexceptionhandler_handleexception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/modelo/ChavePix.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "pix_src_main_java_br_com_pix_modelo_chavepix_java",
+      "target": "modelo_chavepix_chavepix",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/modelo/ChavePix.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "modelo_chavepix_chavepix",
+      "target": "modelo_chavepix_chavepix_automacao",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/modelo/ChavePix.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "modelo_chavepix_chavepix",
+      "target": "modelo_chavepix_chavepix_atualiza",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/modelo/ChavePix.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "modelo_chavepix_chavepix",
+      "target": "modelo_chavepix_chavepix_setenabled",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixApplicationTests.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "pix_chavepixapplicationtests_chavepixapplicationtests_automacaoshouldinitializefieldscorrectly",
+      "target": "modelo_chavepix_chavepix_automacao"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixApplicationTests.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "pix_chavepixapplicationtests_chavepixapplicationtests_atualizashouldupdatefieldscorrectly",
+      "target": "modelo_chavepix_chavepix_automacao"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixTest.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "pix_chavepixtest_chavepixtest_prepersistshouldsetdefaultvalues",
+      "target": "modelo_chavepix_chavepix_automacao"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixApplicationTests.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "pix_chavepixapplicationtests_chavepixapplicationtests_atualizashouldupdatefieldscorrectly",
+      "target": "modelo_chavepix_chavepix_atualiza"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixTest.java",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "pix_chavepixtest_chavepixtest_preupdateshouldsetupdatevalues",
+      "target": "modelo_chavepix_chavepix_atualiza"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixApplicationTests.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "pix_chavepixapplicationtests_chavepixapplicationtests_setenabledshouldthrowunsupportedoperationexception",
+      "target": "modelo_chavepix_chavepix_setenabled"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixTest.java",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "pix_chavepixtest_chavepixtest_setenabledshouldthrowexception",
+      "target": "modelo_chavepix_chavepix_setenabled"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/modelo/Cobranca.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "pix_src_main_java_br_com_pix_modelo_cobranca_java",
+      "target": "modelo_cobranca_cobranca",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/modelo/PixTransaction.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "pix_src_main_java_br_com_pix_modelo_pixtransaction_java",
+      "target": "modelo_pixtransaction_pixtransaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/repositorio/Cadpix.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "pix_src_main_java_br_com_pix_repositorio_cadpix_java",
+      "target": "repositorio_cadpix_cadpix",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/repositorio/CobrancaRepository.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "pix_src_main_java_br_com_pix_repositorio_cobrancarepository_java",
+      "target": "repositorio_cobrancarepository_cobrancarepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/repositorio/PixTransactionRepository.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "pix_src_main_java_br_com_pix_repositorio_pixtransactionrepository_java",
+      "target": "repositorio_pixtransactionrepository_pixtransactionrepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidaBanco.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "pix_src_main_java_br_com_pix_validadores_validabanco_java",
+      "target": "validadores_validabanco_validabanco",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidaBanco.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "validadores_validabanco_validabanco",
+      "target": "validadores_validabanco_validabanco_validaagencia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidaBanco.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "validadores_validabanco_validabanco",
+      "target": "validadores_validabanco_validabanco_validaconta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidaChave.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "pix_src_main_java_br_com_pix_validadores_validachave_java",
+      "target": "validadores_validachave_validachave",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidaChave.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "validadores_validachave_validachave",
+      "target": "validadores_validachave_validachave_valchave",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidaChave.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "validadores_validachave_validachave_valchave",
+      "target": "validadores_validadorcpf_validadorcpf_iscpf"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidaChave.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "validadores_validachave_validachave_valchave",
+      "target": "validadores_validadorcnpj_validadorcnpj_validacnpj"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidaChave.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "validadores_validachave_validachave_valchave",
+      "target": "validadores_validadortelefone_validadortelefone_valida"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidadorCnpj.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "pix_src_main_java_br_com_pix_validadores_validadorcnpj_java",
+      "target": "validadores_validadorcnpj_validadorcnpj",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidadorCnpj.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "validadores_validadorcnpj_validadorcnpj",
+      "target": "validadores_validadorcnpj_validadorcnpj_validacnpj",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidadorCPF.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "pix_src_main_java_br_com_pix_validadores_validadorcpf_java",
+      "target": "validadores_validadorcpf_validadorcpf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidadorCPF.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "validadores_validadorcpf_validadorcpf",
+      "target": "validadores_validadorcpf_validadorcpf_iscpf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidadorTelefone.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "pix_src_main_java_br_com_pix_validadores_validadortelefone_java",
+      "target": "validadores_validadortelefone_validadortelefone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/main/java/br/com/pix/validadores/ValidadorTelefone.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "validadores_validadortelefone_validadortelefone",
+      "target": "validadores_validadortelefone_validadortelefone_valida",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixApplicationTests.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "pix_src_test_java_br_com_pix_chavepixapplicationtests_java",
+      "target": "pix_chavepixapplicationtests_chavepixapplicationtests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixApplicationTests.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "pix_chavepixapplicationtests_chavepixapplicationtests",
+      "target": "pix_chavepixapplicationtests_chavepixapplicationtests_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixApplicationTests.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "pix_chavepixapplicationtests_chavepixapplicationtests",
+      "target": "pix_chavepixapplicationtests_chavepixapplicationtests_automacaoshouldinitializefieldscorrectly",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixApplicationTests.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "pix_chavepixapplicationtests_chavepixapplicationtests",
+      "target": "pix_chavepixapplicationtests_chavepixapplicationtests_atualizashouldupdatefieldscorrectly",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixApplicationTests.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "pix_chavepixapplicationtests_chavepixapplicationtests",
+      "target": "pix_chavepixapplicationtests_chavepixapplicationtests_setenabledshouldthrowunsupportedoperationexception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixTest.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "pix_src_test_java_br_com_pix_chavepixtest_java",
+      "target": "pix_chavepixtest_chavepixtest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixTest.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "pix_chavepixtest_chavepixtest",
+      "target": "pix_chavepixtest_chavepixtest_shouldcreatewithnoargsconstructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixTest.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "pix_chavepixtest_chavepixtest",
+      "target": "pix_chavepixtest_chavepixtest_shouldcreatewithallargsconstructorandtestgetters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixTest.java",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "pix_chavepixtest_chavepixtest",
+      "target": "pix_chavepixtest_chavepixtest_prepersistshouldsetdefaultvalues",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixTest.java",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "pix_chavepixtest_chavepixtest",
+      "target": "pix_chavepixtest_chavepixtest_preupdateshouldsetupdatevalues",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/test/java/br/com/pix/ChavePixTest.java",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "pix_chavepixtest_chavepixtest",
+      "target": "pix_chavepixtest_chavepixtest_setenabledshouldthrowexception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/test/java/br/com/pix/CobControllerTest.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "pix_src_test_java_br_com_pix_cobcontrollertest_java",
+      "target": "pix_cobcontrollertest_cobcontrollertest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/src/test/java/br/com/pix/CobControllerTest.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "pix_cobcontrollertest_cobcontrollertest",
+      "target": "pix_cobcontrollertest_cobcontrollertest_devecriarcobranca",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme_md",
+      "target": "pix_readme_projeto_de_gerenciamento_e_api_pix_padr\u00e3o_bacen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "pix_readme_projeto_de_gerenciamento_e_api_pix_padr\u00e3o_bacen",
+      "target": "pix_readme_objetivo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "pix_readme_projeto_de_gerenciamento_e_api_pix_padr\u00e3o_bacen",
+      "target": "pix_readme_tecnologias_utilizadas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "pix_readme_projeto_de_gerenciamento_e_api_pix_padr\u00e3o_bacen",
+      "target": "pix_readme_estrutura_do_projeto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "pix_readme_projeto_de_gerenciamento_e_api_pix_padr\u00e3o_bacen",
+      "target": "pix_readme_como_executar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/HELP.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "pix_help_md",
+      "target": "pix_help_getting_started",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/HELP.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "pix_help_getting_started",
+      "target": "pix_help_reference_documentation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "pix/HELP.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "pix_help_getting_started",
+      "target": "pix_help_guides",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
